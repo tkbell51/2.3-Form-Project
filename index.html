@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Profile Setup</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div class="outer">
+
+      <section>
+        <h1>Sign Up</h1>
+      </section>
+
+
+    <section>
+      <form class="sign">
+
+        <section class="choose1">
+          <label>
+          <input id="radioO" type="radio" name="Option" value="admin"> Admin
+        </label>
+        <label>
+          <input id="radioO" type="radio" name="Option" checked="checked" value="pers"> Personal
+        </label>
+        <label>
+          <input id="radioO" type="radio" name="Option" value="guest"> Guest
+        </label>
+        </section>
+
+        <section class="input">
+          <div>
+            <label for="nameInput">name</label><br>
+            <input id="nameInput"type="text" name="Name" value="">
+          </div>
+          <div>
+            <label for="emailInput">email address</label>
+            <input id="emailInput"type="email" name="email" value="">
+          </div>
+          <div>
+            <label for="passwordInput">password</label>
+            <input id="passwordInput"type="password" name="password" value="">
+          </div>
+          <div>
+            <label for="confirmInput">confirm password</label>
+            <input id="confirmInput"type="password" name="password" value="">
+          </div>
+        </section>
+        <section class="bottomRow">
+
+
+        <section class="image">
+          <label for="photo"> profile picture</label>
+          <input id="photo" type="file" name="photo" value="">
+        </section>
+        <section class="signUp">
+        <input class="signUp" type="submit" name="button" value="sign up">
+        </section>
+        </section>
+      </form>
+    </section>
+  </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-weight: 100;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FBDA31;
+  padding: 2rem;
+  min-height: 100vh;
+  flex-direction: column;
+
+}
+
+section {
+  max-width: 760px;
+  background-color: #ffffff;
+  padding: 2rem 0;
+}
+.outer section{
+  text-align: center;
+  width: 60%;
+  flex: 1 1 100%;
+}
+.sign{
+  display: flex;
+ flex-flow: row wrap;
+ justify-content: space-between;
+}
+.choose1{
+  display: flex;
+  justify-content: space-around;
+  flex: 1 1 100%;
+}
+.input div{
+  text-align: left;
+}
+.input input{
+  width: 332px;
+  height: 42px;
+}
+.input{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.input div{
+  width: 45%;
+}
+.image label input{
+  flex: 1 1 45%;
+
+}
+.signUp input{
+  flex: 1 1 45%;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.bottomRow{
+  display: flex;
+  flex-flow: row nowrap;
+
+}
