@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
 
-html {
+/*html {
   box-sizing: border-box;
-}
+}*/
 *, *:before, *:after {
-  box-sizing: inherit;
+  box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -18,7 +18,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #FBDA31;
-  padding: 2rem;
+  padding: 3rem;
   min-height: 100vh;
   flex-direction: column;
 
@@ -27,7 +27,7 @@ body {
 section {
   max-width: 760px;
   background-color: #ffffff;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 .outer section{
   text-align: center;
@@ -38,6 +38,7 @@ section {
   display: flex;
  flex-flow: row wrap;
  justify-content: space-between;
+ padding: 0px;
 }
 .choose1{
   display: flex;
@@ -48,6 +49,7 @@ section {
   text-align: left;
 }
 .input input{
+  margin-top: 6px;
   width: 332px;
   height: 42px;
 }
@@ -55,22 +57,44 @@ section {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  padding: 0px;
 }
 .input div{
+  margin-bottom: 20px;
   width: 45%;
 }
-.image label input{
-  flex: 1 1 45%;
+.image{
+  display: flex;
+  flex-flow: row wrap;
+  height: 80px;
+  justify-content: flex-start;
+  flex: 1 1 40%;
+  margin-left: 40px;
+}
+.image label{
+  margin-bottom: 10px;
+}
+.image input{
+  flex: 1 1 100%;
+text-align: left;
 
 }
+
 .signUp input{
   flex: 1 1 45%;
+  font-size: 18px;
   background-color: white;
   border: 2px solid black;
   border-radius: 5px;
+  width: 85%;
+  height: 42px;
+  display: flex;
+  justify-content: center;
 }
 .bottomRow{
   display: flex;
   flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around;
 
 }
